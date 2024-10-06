@@ -3,7 +3,6 @@
 # Halloween Theme
 #
 halloween:
-  dark-primary-color: "#7a4901"
   disabled-text-color: "#242424"
   divider-color: "rgba(255, 0, 0, 0.12)"
   label-badge-background-color: "var(--secondary-background-color)"
@@ -28,8 +27,12 @@ halloween:
   paper-toggle-button-checked-ink-color: "#ff8f45"
   paper-toggle-button-unchecked-bar-color: "var(--primary-text-color)"
   primary-background-color: "#2b2b2b"
-  primary-color: "#dd5800"
   primary-text-color: "#dd5800"
   secondary-background-color: "#2b2b2b"
   secondary-text-color: "#dd5800"
   text-primary-color: "#000000"
+  modes:
+    dark:
+      primary-color: "#7a4901"
+    light:
+      primary-color: "#dd5800"
